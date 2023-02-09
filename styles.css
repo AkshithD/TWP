@@ -18,6 +18,12 @@ div.Gallery{
     justify-content: center;
     align-items: center;
 }
+img{
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(63, 96, 90);
+}
 .Gallery{
     flex-direction: column;
 }
