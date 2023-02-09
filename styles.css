@@ -1,3 +1,23 @@
+html{
+    background-color: black;
+    color:rgb(191, 191, 161);
+    
+}
+a{
+    color:rgb(40, 145, 145);
+}
+h3{
+    text-align: center;
+}
 .heading{
     text-align: center;
+    font-family: fantasy;
+}
+div.Gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Gallery{
+    flex-direction: column;
 }
