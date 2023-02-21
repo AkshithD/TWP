@@ -27,3 +27,14 @@ img{
 .Gallery{
     flex-direction: column;
 }
+Table{
+    text-align: center;
+}
+th{
+    color: aliceblue;
+    background-color: rgb(126, 55, 55);
+}
+td{
+    color: aliceblue;
+    background-color: rgb(55, 54, 54);
+}
