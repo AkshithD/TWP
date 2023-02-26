@@ -3,8 +3,27 @@ html{
     color:rgb(191, 191, 161);
     
 }
+body{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(21, 32, 23);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: rgb(63, 96, 90);
+    padding: 10px;
+
+}
+.subtitle{
+    color: azure;
+    line-height: 99%;
+    text-decoration:italic;
+}
 a{
     color:rgb(40, 145, 145);
+}
+a:hover{
+    color:rgb(171, 160, 119);
 }
 h3{
     text-align: center;
@@ -27,8 +46,14 @@ img{
 .Gallery{
     flex-direction: column;
 }
-Table{
+.Item_Data{
     text-align: center;
+}
+Table{
+    /* make the table to the center*/
+    margin: 0 auto;
+    text-align: center;
+    width: 800px;
 }
 th{
     color: aliceblue;
