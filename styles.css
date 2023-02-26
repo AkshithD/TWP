@@ -33,6 +33,7 @@ h1{
 }
 .subtitle{
     font-family: Georgia;
+    text-align:center;
 }
 div.Gallery{
     display: flex;
